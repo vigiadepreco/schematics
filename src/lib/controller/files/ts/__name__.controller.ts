@@ -8,8 +8,8 @@ import { PaginateServices } from "../../../services/paginate.service";
 import { ResponseEntity } from "../../../entities/response.entity";
 import { ResponseService } from "../../../services/response.service";
 
-import { <%= classify(name) %>Dto } from "../dto/coins.dto";
-import { <%= classify(name) %>Domain } from "../domain/coins.domain";
+import { <%= classify(name) %>Dto } from "../dto/<%= dasherize(name) %>.dto";
+import { <%= classify(name) %>Domain } from "../domain/<%= dasherize(name) %>.domain";
 
 @Controller("<%= dasherize(name) %>")
 @Resource("<%= dasherize(name) %>")

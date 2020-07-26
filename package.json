@@ -1,6 +1,6 @@
 {
   "name": "@vigiadepreco/schematics",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "fork of @nestjs/schematics of Vigia de Preço",
   "main": "dist/index.js",
   "files": [
