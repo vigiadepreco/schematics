@@ -1,7 +1,7 @@
 {
-  "name": "@nestjs/schematics",
+  "name": "@vigiadepreco/schematics",
   "version": "7.0.1",
-  "description": "Nest - modern, fast, powerful node.js web framework (@schematics)",
+  "description": "fork of @nestjs/schematics of Vigia de Preço",
   "main": "dist/index.js",
   "files": [
     "dist/**/*"
@@ -27,18 +27,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestjs/schematics.git"
+    "url": "git+https://github.com/vigiadepreco/schematics.git"
   },
   "contributors": [
     "ThomRick",
     "Kamil Mysliwiec",
-    "John Biundo"
+    "John Biundo",
+    "Andre Ferreira <andre@vigiadepreco.com.br>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nestjs/schematics/issues"
+    "url": "https://github.com/vigiadepreco/schematics/issues"
   },
-  "homepage": "https://github.com/nestjs/schematics#readme",
+  "homepage": "https://github.com/vigiadepreco/schematics#readme",
   "dependencies": {
     "@angular-devkit/core": "9.1.12",
     "@angular-devkit/schematics": "9.1.12",

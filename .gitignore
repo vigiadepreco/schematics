@@ -15,3 +15,6 @@ src/utils/**/*.js
 src/utils/**/*.d.ts
 
 .DS_Store
+
+package-lock.json
+yarn.lock
